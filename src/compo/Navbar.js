@@ -41,15 +41,13 @@ const Navbar = () => {
                 <h1 className='w-full text-3xl font-bold text-[#ffffff] m-4'>K7IT.</h1>
                 <li className='p-4 border-b border-gray-600'><a href='/home'>AboutUs</a></li>
                 <li className='p-4 border-b border-gray-600'><a href='/Service'>Service</a></li>
+                <li className='p-4 border-b border-gray-600'><a href=''>Platform</a></li>
+                <li className='p-4 border-b border-gray-600'><a href='/Why'>WhyK7</a></li>
+                <li className='p-4 border-b border-gray-600'><a href='/Why'>item</a></li>
+                <li className='p-4 border-b border-gray-600'><a href='/Contactus'>Contactus</a></li>
 
-                <li className='relative p-4 border-b border-gray-600 group'>
-                    <a href='/Why' >Platform</a>
-                    <ul className='absolute hidden bg-white text-black shadow-lg group-hover:block'>
-                        <li className='p-2'><a href='/Why/mission'>Mission</a></li>
-                        <li className='p-2'><a href='/Why/values'>Values</a></li>
-                        <li className='p-2'><a href='/Contactus'>Team</a></li>
-                    </ul>
-                </li>
+
+
                 <li className='p-4 border-b border-gray-600'><a href='/Contact'>Careers</a></li>
             </ul>
         </div>
