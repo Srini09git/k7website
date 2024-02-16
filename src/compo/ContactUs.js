@@ -5,7 +5,7 @@ export const ContactUs = () => {
     return (
         <div>
             <div
-                class="relative h-[600px] overflow-hidden bg-cover bg-[10%] bg-no-repeat bg-[url('https://img.freepik.com/free-photo/business-people-commuter-walking-abstract-concept_53876-139636.jpg?w=1380&t=st=1707804889~exp=1707805489~hmac=358dd204486faf7017cffc2da25e0ce500f989d28b8281e4f5caa3ddfd758ec1')]">
+                class="relative h-[600px] overflow-hidden bg-center bg-cover  bg-no-repeat bg-[url('https://img.freepik.com/free-photo/friends-using-smartphones-together-chilling_53876-26151.jpg?w=900&t=st=1707820300~exp=1707820900~hmac=b7e36bbebbead7042f98840ffac8b0c555887e3f5f610021bc07c6fb89d166d2')]">
             </div>
             <div class="container px-6 md:px-12">
                 <div

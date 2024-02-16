@@ -9,6 +9,7 @@ import { Followus } from './Followus';
 import { VideoBg } from './VideoBg';
 import { Why } from './Why';
 import { ContactUs } from './ContactUs';
+import { Counter } from './Counter';
 
 
 
@@ -63,7 +64,7 @@ const Hero = () => {
 
             <About />
             <Followus />
-
+            <Counter />
 
         </div >
     );
