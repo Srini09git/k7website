@@ -53,7 +53,7 @@ export const Counter = () => {
                                         {counterState &&
                                             <CountUp start={0} end={20} duration={2.75}>
                                             </CountUp>}+</h2>
-                                    <p className='py-2 text-[#595959]'>Employee</p>
+                                    <p className='py-2 text-[#595959]'>Employees</p>
                                 </div>
                             </div>
                         </ScrollTrigger>

@@ -12,6 +12,7 @@ import { Error } from './compo/Error';
 import { Contact } from './compo/Contact';
 import { Why } from './compo/Why';
 import { ContactUs } from './compo/ContactUs';
+import { ServiceHero } from './compo/ServiceHero';
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
         <Route path='/Why' element={<Why />}></Route>
         <Route path='/Contact' element={<Contact />}></Route>
         <Route path='/ContactUS' element={<ContactUs />}></Route>
+        <Route path='/Support' element={<ServiceHero />}></Route>
         <Route path='*' element={<Error />}></Route>
+
       </Routes>
 
       <Footer />

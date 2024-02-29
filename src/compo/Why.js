@@ -6,6 +6,7 @@ import flex from '../assets/icon/DrawKit Vector Illustration Project Manager (14
 import simple from '../assets/icon/DrawKit Vector Illustration Project Manager (13).png'
 import time from '../assets/icon/DrawKit Vector Illustration Project Manager (15).png'
 import fast from '../assets/icon/DrawKit Vector Illustration Project Manager (12).png'
+import { Testimonials } from './Testimonials';
 
 
 export const Why = () => {
@@ -66,7 +67,8 @@ export const Why = () => {
                 </div>
 
             </Parallax>
-            <Ceo />
+
+            <Testimonials />
         </div>
     )
 }

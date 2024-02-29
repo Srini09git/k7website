@@ -35,7 +35,7 @@ const Navbar = () => {
                         <a href=''>Platform</a>
                         <ul className='absolute hidden text-black shadow-lg group-hover:block'>
                             <li className='p-3 border-b border-gray-600 bg-white'><a href='/Why'>WhyK7</a></li>
-                            <li className='p-3 border-b border-gray-600  bg-white'><a href='/Why/values'>Values</a></li>
+                            <li className='p-3 border-b border-gray-600  bg-white'><a href='/Support'>Support</a></li>
                             <li className='p-3 border-b border-gray-600  bg-white'><a href='/Contactus'>ContactUs</a></li>
                         </ul>
                     </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                     <li className='p-4 border-b border-gray-600'><a href='/Service'>Service</a></li>
                     <li className='p-4 border-b border-gray-600'><a href=''>Platform</a></li>
                     <li className='p-4 border-b border-gray-600'><a href='/Why'>WhyK7</a></li>
-                    <li className='p-4 border-b border-gray-600'><a href='/Why'>item</a></li>
+                    <li className='p-4 border-b border-gray-600'><a href='/Support'>Support</a></li>
                     <li className='p-4 border-b border-gray-600'><a href='/Contactus'>Contactus</a></li>
                     <li className='p-4 border-b border-gray-600'><a href='/Contact'>Careers</a></li>
                 </ul>

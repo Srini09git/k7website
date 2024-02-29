@@ -38,7 +38,7 @@ const About = () => {
                 </div>
 
 
-                <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+                <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 '>
 
                     <div className='flex flex-col justify-center gap-3'>
 
@@ -66,7 +66,7 @@ const About = () => {
                 </div>
 
 
-                <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+                <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 '>
                     <Frame>
                         <img className='w-[500px] mx-auto my-4' src={about3} alt='/' />
 

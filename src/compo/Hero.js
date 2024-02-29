@@ -10,6 +10,9 @@ import { VideoBg } from './VideoBg';
 import { Why } from './Why';
 import { ContactUs } from './ContactUs';
 import { Counter } from './Counter';
+import { ClickApply } from './ClickApply';
+import { GoogleReview } from './GoogleReview';
+import { Sponsors } from './Sponsors';
 
 
 
@@ -63,8 +66,13 @@ const Hero = () => {
 
 
             <About />
-            <Followus />
+            <Sponsors />
+
             <Counter />
+            <Followus />
+            <ClickApply />
+            <GoogleReview />
+
 
         </div >
     );

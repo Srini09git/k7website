@@ -6,6 +6,7 @@ import apiz from '../assets/Api k7.jpg';
 import uiux from '../assets/ui k7.jpg';
 import { Link } from 'react-router-dom';
 
+
 const ServiceSection = ({ title, subtitle, imageSrc }) => {
     return (
         <section className=" lg:items-center items-center">
@@ -21,31 +22,32 @@ const ServiceSection = ({ title, subtitle, imageSrc }) => {
             </div>} */}
 
             <Frame>
-                <div class="relative flex flex-col min-w-0 break-words bg-gray-200 shadow-soft-xl rounded-2xl bg-clip-border">
-                    <div class="flex-auto p-4">
-                        <div class="flex flex-wrap -mx-3">
-                            <div class="max-w-full px-3 lg:w-1/2 lg:flex-none">
-                                <div class="flex flex-col h-full">
 
-                                    <h5 class="font-bold pt-5">{title}</h5>
-                                    <p class="mb-12">{subtitle}</p>
-                                    <Link to='/Contact' class="mt-auto mb-0 font-semibold leading-normal text-sm group text-slate-500" href="javascript:;">
-                                        Apply
-                                        <i class="fas fa-arrow-right ease-bounce text-sm group-hover:translate-x-1.25 ml-1 leading-normal transition-all duration-200"></i>
-                                    </Link>
-                                </div>
+                <div class="px-2 py-20 w-full flex justify-center">
+                    <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+                        <div class="lg:w-1/2">
+                            <div class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg">
+                                <img src={imageSrc} alt="rocket" />
                             </div>
-                            <div class="max-w-full px-3 mt-12 ml-auto text-center lg:mt-0 lg:w-5/12 lg:flex-none">
+                        </div>
+                        <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
+                            <h2 class="text-3xl text-gray-800 font-bold">
+                                {title}
+                                <span class="text-indigo-600"> Development</span>
+                            </h2>
+                            <p class="mt-4 text-gray-600">
+                                {subtitle}
+                            </p>
+                            <Link to='/Contact'>
+                                <div class="mt-8">
+                                    <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                                </div></Link>
 
-
-                                <div class="relative flex items-center justify-center rounded-xl h-full">
-                                    <img class="relative w-5/6 z-20  rounded-x1 " src={imageSrc} alt="rocket" />
-                                </div>
-
-                            </div>
                         </div>
                     </div>
                 </div>
+
+
             </Frame>
         </section>
 

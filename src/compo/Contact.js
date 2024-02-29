@@ -1,26 +1,62 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs, { send } from '@emailjs/browser';
 import imaz from '../assets/origami-boats-leadership-concept.jpg'
 import { Parallax } from 'react-parallax';
 import { Followus } from './Followus';
 
 
+
 export const Contact = () => {
+
     const form = useRef();
+    const [isSuccess, setIsSuccess] = useState(false);
+    const [isError, setIsError] = useState(false);
+
 
     const sendEmail = (e) => {
         e.preventDefault();
 
+        const formFields = form.current.elements;
+        let isFormValid = true;
+
+        // Client-side validation
+        for (let field of formFields) {
+            if (field.type !== 'submit' && field.value.trim() === '') {
+                isFormValid = false;
+                break;
+            }
+        }
+
+        if (!isFormValid) {
+            setIsError(true);
+            setTimeout(() => {
+                setIsError(false);
+            }, 5000); // Clear error message after 5 seconds
+            return;
+        }
+
         emailjs.sendForm('service_6gutwlo', 'template_l3a2iri', form.current, 'jE-EyzKvmQkkPYowf')
             .then((result) => {
                 console.log(result.text);
-            }, (error) => {
+                setIsSuccess(true);
+                setTimeout(() => {
+                    setIsSuccess(false);
+                }, 5000); // Clear success message after 5 seconds
+                form.current.reset(); // Reset form fields
+            })
+            .catch((error) => {
                 console.log(error.text);
+                setIsError(true);
+                setTimeout(() => {
+                    setIsError(false);
+                }, 5000); // Clear error message after 5 seconds
             });
     };
 
+
     return (
         <div className=' flex-col '>
+
 
             <Parallax strength={500} bgImage={imaz} bgImageAlt='bg' className='object-fill'>
                 <div class=" px-6 py-24 sm:py-32 lg:px-8 " >
@@ -137,10 +173,15 @@ export const Contact = () => {
                             <button type="submit" value={send} class="block w-full rounded-md bg-cyan-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
                         </div>
                     </form>
+                    {isSuccess && <div class="bg-green-100 border-l-4 border-green-500 text-green-700 max-w-90 p-4 rounded-lg relative bg-center ">
+                        <p class="text-lg font-semibold">Email sent successfully!</p>
+                        <p>Your order has been successfully confirmed and is now being processed.</p>
+                    </div>}
+                    {isError && <div className="text-red-500 text-center mt-4">Failed to send email. Please try again later.</div>}
                 </div>
-            </Parallax>
+            </Parallax >
             <Followus />
-        </div>
+        </div >
 
     );
 };
