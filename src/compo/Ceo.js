@@ -1,53 +1,42 @@
 import React from 'react'
-import Ceophoto from '../assets/Untitled pic.jpg'
+import Ceophoto from '../assets/k7 profile.png'
 
 export const Ceo = () => {
     return (
         <div>
-            <section className="relative">
+            <section class="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
+                <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                    <div class="grid items-center grid-cols-1 md:grid-cols-2">
 
-                <div className="max-w-6xl mx-auto px-4 sm:px-6 bg">
-                    <div className="py-12 md:py-20">
+                        <div>
+                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Kesavulu Arthala
+                                <br class="block sm:hidden" /> <span className='text-blue-500'>CEO</span>
+                            </h2>
+                            <p class="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 md:mt-8">
+                                Amet minim mollit non deserunt
+                                ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                                Exercitation veniam consequat sunt nostrud amet.
+                            </p>
 
-                        {/* Section header */}
-                        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                            <h2 className="h2 mb-4">Trusted by over 20,000 companies all over the world</h2>
-                            <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
-                                blandit libero cursus mattis.</p>
+                            {/*   <p class="mt-4 text-xl text-gray-600 md:mt-8">
+                                <span class="relative inline-block">
+                                    <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
+                                    <span class="relative"> Have a question? </span>
+                                </span>
+                                <br class="block sm:hidden" />Ask me on <a href="#" title=""
+                                    class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline">Twitter</a>
+    </p> */}
                         </div>
 
-                        {/* Items */}
-                        <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
+                        <div class="relative">
+                            <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
 
-                        </div>
-
-                        {/* Testimonials */}
-                        <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-                            <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-                                {/* Testimonial */}
-                                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
-                                    <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
-                                        <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
-                                        </svg>
-
-                                        <img className="relative rounded-full" src={Ceophoto} width={96} height={96} alt="CEo" />
-                                    </div>
-                                    <blockquote className="text-xl font-medium mb-4">
-                                        “ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde fugit sit vel tenetur soluta cum atque animi fuga cupiditate, beatae, ipsa, illum incidunt minima accusamus deleniti exercitationem aspernatur. Perferendis, et. “
-                                    </blockquote>
-                                    <cite className="block font-bold text-lg not-italic mb-1">Kesavulu Arthala</cite>
-                                    <div className="text-gray-600">
-                                        <span>CEO & Co-Founder</span> <a className="text-blue-600 hover:underline" href="#0">@K7Infotech</a>
-                                    </div>
-                                </div>
-
-                            </div>
+                            <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src={Ceophoto} alt="" />
                         </div>
 
                     </div>
                 </div>
-            </section></div>
+            </section>
+        </div>
     )
 }

@@ -29,12 +29,14 @@ export const ClickApply = () => {
                     </Link>
                 </a>
                 <a href="" className='p-3'>
-                    <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
-                        <div class="bg-white p-7 rounded-md">
-                            <h1 class="font-bold text-xl mb-2">Course</h1>
-                            <p>Hire Fresher, frontend, backend, ui/ux, Fullstack  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo dolores voluptates vero est nostrum atque, reprehenderit obcaecati adipisci omnis porro eos dicta quis qui, perferendis harum nesciunt illo cupiditate.</p>
+                    <Link to='/Course' href="javascript:;">
+                        <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
+                            <div class="bg-white p-7 rounded-md">
+                                <h1 class="font-bold text-xl mb-2">Course</h1>
+                                <p>Hire Fresher, frontend, backend, ui/ux, Fullstack  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo dolores voluptates vero est nostrum atque, reprehenderit obcaecati adipisci omnis porro eos dicta quis qui, perferendis harum nesciunt illo cupiditate.</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </a>
             </div>
         </div>
