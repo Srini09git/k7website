@@ -8,6 +8,9 @@ import bgimg from '../assets/13268.jpg'
 
 
 const About = () => {
+
+  
+
     return (
         <Parallax strength={300} bgImage={bgimg} className=' object-fill'>
             <div className='w-full py-16 px-4 ' id="about-section ">
