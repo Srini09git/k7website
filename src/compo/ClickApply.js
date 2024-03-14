@@ -3,12 +3,19 @@ import carr from '../assets/white.jpg'
 import { Link } from 'react-router-dom';
 
 export const ClickApply = () => {
+    const handleScrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional: Adds smooth scrolling behavior
+        });
+    };
     return (
+
         <div>
             <div className=' flex-wrap bg-gradient-to-r from-gray-100 to-gray-200 p-10 md:p-20 flex items-center  justify-around mt-4'>
 
                 <a href="" className='p-3'>
-                    <Link to='/Contact' href="javascript:;">
+                    <Link to='/Contact' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">
                                 <h1 class="font-bold text-xl mb-2">Careers</h1>
@@ -19,7 +26,7 @@ export const ClickApply = () => {
                 </a>
 
                 <a href="" className='p-3'>
-                    <Link to='/Support' href="javascript:;">
+                    <Link to='/Support' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">
                                 <h1 class="font-bold text-xl mb-2">Support</h1>
@@ -29,7 +36,7 @@ export const ClickApply = () => {
                     </Link>
                 </a>
                 <a href="" className='p-3'>
-                    <Link to='/Course' href="javascript:;">
+                    <Link to='/Course' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">
                                 <h1 class="font-bold text-xl mb-2">Course</h1>

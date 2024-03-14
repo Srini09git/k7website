@@ -18,7 +18,8 @@ export const GoogleReview = () => {
                         <img class="w-5" src="https://www.svgrepo.com/show/513354/star.svg" alt="stars-icon" />
                     </div>
                     <div>
-                        <h3 class="text-sm">Rated by 45+ on google.</h3>
+                        <h3 class="text-sm">Rated by 45
+                        + on google.</h3>
                     </div>
                 </div>
             </div>
