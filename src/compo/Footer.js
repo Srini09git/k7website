@@ -20,7 +20,7 @@ const Footer = () => {
         <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-2 gap-8 text-gray-300'>
             <div>
                 <h1 className='w-full text-3xl font-bold text-[#00df9a]'>K7 InfoTech</h1>
-                <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
+                <p className='py-4 text-gray-600'>At K7 Infotech, we understand the importance of staying ahead in today's competitive market. That's why we're dedicated to providing top-notch software and outsourcing services that help businesses stay agile, efficient, and ahead of the curve.</p>
                 <div className='flex justify-between md:w-[75%] my-6'>
                     <FaFacebookSquare size={30} />
                     <FaInstagram size={30} />

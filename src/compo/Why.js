@@ -26,42 +26,60 @@ export const Why = () => {
                     <div className='grid  md:grid-cols-2 gap-3 max-w-[1020px] mt-[0px] w-full h-auto mx-auto justify-items-center items-center pb-24'>
 
 
-                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-yellow-200">
 
-                            <img className='w-24 text-gray-900 dark:text-gray-400 mb-3' src={simple} alt='/' />
+
+                        <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow  bg-yellow-300">
 
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Simple</h5>
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">KEEP COSTS LOW</h5>
                             </a>
-                            <p class="mb-3 font-normal text-gray-900">We built K7Infotech simple on purpose. Process owners and business analysts can collaborate with developers to create a culture of innovation.</p>
-
-                        </div>
-
-                        <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow  bg-blue-200">
-                            <img className='w-24 text-gray-900 dark:text-gray-400 mb-3' src={flex} alt='/' />
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">Fast</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-900">No-code workflows can be up and running in hours. Fully functional apps can be ready in days. Launch new applications every week.</p>
+                            <p class="mb-3 font-normal text-gray-900">OOur competitive prices and quick time-to-market guarantee that your projects get completed within budget and timelines. Additionally, our efficient resource allocation and optimization strategies ensure that you maximize your return on investment while minimizing unnecessary expenditures, helping you stay financially prudent and competitive in the market.</p>
                         </div>
 
                         <div>
-                            <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow bg-green-200">
-                                <img className='w-24 text-gray-900 dark:text-gray-400 mb-3' src={time} alt='/' />
+                            <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow bg-orange-300">
+
                                 <a href="#">
-                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Flexible</h5>
+                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">ACCESS BUSINESS-READY TEAMS</h5>
                                 </a>
-                                <p class="mb-3 font-normal text-gray-900 ">Automated workflows, custom pages, dashboards, and integrations, all on the same platform.  </p>
+                                <p class="mb-3 font-normal text-gray-900 ">Our bench strength across various technologies helps in quicker and efficient customer engagement, right from day one. With a diverse and skilled team readily available, we ensure seamless onboarding and swift project initiation, allowing businesses to leverage our expertise and hit the ground running with their initiatives. </p>
                             </div>
                         </div>
                         <div>
-                            <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-red-200">
-                                <img className='w-24 text-gray-900 dark:text-gray-400 mb-3' src={fast} alt='/' />
+                            <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-green-300">
+
                                 <a href="#">
-                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Powerful</h5>
+                                    <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">
+                                        ACHIEVE HIGHEST STANDARDS OF QUALITY</h5>
                                 </a>
-                                <p class="mb-3 font-normal text-gray-900">K7Infotech has everything developers need to build complete applications including reusable custom components and API endpoints.</p>
+                                <p class="mb-3 font-normal text-gray-900">With our highly experienced team of technical experts, customers can expect only the highest standards of quality. We adhere to rigorous quality assurance protocols and continuously strive for excellence in every aspect of our service delivery, ensuring that our clients receive unparalleled solutions that meet and exceed their expectations.</p>
                             </div>
+
+                        </div>
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-red-400">
+
+
+
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">BENEFIT FROM QUICKER TIME-TO-MARKET</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-900">Our deep understanding of Agile practices and the culture of automation-first approach, lead to quicker time-to-market. By leveraging cutting-edge technologies and streamlined processes, we empower businesses to swiftly bring their ideas from conception to reality, gaining a competitive edge in today's fast-paced market landscape.</p>
+
+                        </div>
+
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-indigo-500">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Focus on Customer Experience</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-900">Deeply ingrained in all our processes and workflows is the intense focus on customer experience. We strive to anticipate and exceed our customers' expectations at every touchpoint, ensuring seamless interactions and delivering solutions that truly resonate with their needs and goals.</p>
+                        </div>
+
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-purple-300">
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Honesty and Integrity</h5>
+                            </a>
+                            <p class="mb-3 font-normal text-gray-900">At K7 InfoTech, we pride ourselves on fostering a culture of trust and stability, where honesty and integrity serve as the bedrock of our operations. Transparency and ethical conduct are ingrained in every aspect of our interactions, ensuring that we consistently uphold the highest standards of professionalism and reliability.</p>
+
                         </div>
                     </div>
                 </div>
