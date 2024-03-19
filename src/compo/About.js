@@ -77,7 +77,7 @@ const About = () => {
                             Whether you're looking to develop a new software solution, enhance an existing application, or outsource your software development needs, K7 Infotech is your trusted partner for success. Contact us today to learn more about how we can help you achieve your goals and propel your business to new heights.
                         </p>
                         <Link to='/why' href="javascript:;" onClick={handleScrollToTop}>
-                            <button className='bg-black hover:bg-gray-200 hover:text-blue-600  text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>WHY !! K7 Infotech </button>
+                            <button className=' transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110   hover:bg-gray-200 hover:text-blue-600 hover:border-red-600  text-[#ffffff] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>WHY !! K7 Infotech </button>
                         </Link>
                     </div>
                 </div>

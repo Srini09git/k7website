@@ -13,7 +13,7 @@ export const Why = () => {
     return (
         <div>
             <Parallax strength={500} bgImage={whybg} bgImageAlt='bg' className='object-fill  '>
-                <div className=' pt-32'>
+                <div className=' pt-32 '>
                     <div className=' text-center flex flex-col justify-center lg:text-5xl md:text-4xl sm:text-2xl text-3xl  md:py-6'>
                         <h1 className='font-bold'>Other low-code platforms get</h1>
                         <h1 className='font-bold '>developers to <span className='bg-gradient-to-r from-blue-400 via-red-500 to-red-700  hover:from-green-500 hover:to-green-300 inline-block text-transparent bg-clip-text'>work faster</span></h1>
@@ -28,7 +28,7 @@ export const Why = () => {
 
 
 
-                        <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow  bg-yellow-300">
+                        <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow  bg-yellow-300 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
 
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">KEEP COSTS LOW</h5>
@@ -37,7 +37,7 @@ export const Why = () => {
                         </div>
 
                         <div>
-                            <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow bg-orange-300">
+                            <div class="max-w-sm p-10 border border-gray-200 rounded-lg shadow bg-orange-300 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
 
                                 <a href="#">
                                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">ACCESS BUSINESS-READY TEAMS</h5>
@@ -46,7 +46,7 @@ export const Why = () => {
                             </div>
                         </div>
                         <div>
-                            <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-green-300">
+                            <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-green-300 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
 
                                 <a href="#">
                                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">
@@ -56,25 +56,25 @@ export const Why = () => {
                             </div>
 
                         </div>
-                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-red-400">
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-red-400 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
 
 
 
                             <a href="#">
-                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">BENEFIT FROM QUICKER TIME-TO-MARKET</h5>
+                                <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 ">BENEFIT FROM QUICKER TIME-TO-MARKET</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-900">Our deep understanding of Agile practices and the culture of automation-first approach, lead to quicker time-to-market. By leveraging cutting-edge technologies and streamlined processes, we empower businesses to swiftly bring their ideas from conception to reality, gaining a competitive edge in today's fast-paced market landscape.</p>
 
                         </div>
 
-                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-indigo-500">
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-indigo-500 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Focus on Customer Experience</h5>
                             </a>
                             <p class="mb-3 font-normal text-gray-900">Deeply ingrained in all our processes and workflows is the intense focus on customer experience. We strive to anticipate and exceed our customers' expectations at every touchpoint, ensuring seamless interactions and delivering solutions that truly resonate with their needs and goals.</p>
                         </div>
 
-                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-purple-300">
+                        <div class="max-w-sm p-10  border border-gray-200 rounded-lg shadow bg-purple-300 transition ease-in-out delay-150 md:hover:-translate-y-1 md:hover:scale-105">
                             <a href="#">
                                 <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900">Honesty and Integrity</h5>
                             </a>

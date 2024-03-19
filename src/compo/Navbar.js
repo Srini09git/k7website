@@ -35,17 +35,17 @@ const Navbar = () => {
             <div className='h-24 max-w-[1240px] mx-auto flex justify-between items-center   px-4 text-black z-50 fixed top-0 left-0 right-0  '>
                 <h1 className='w-full text-3xl font-bold text-[#272727]'>K7IT.</h1>
                 <ul className='hidden md:flex'>
-                    <li className='p-4'><a href='/' onClick={handleScrollToTop}>AboutUs</a></li>
-                    <li className='p-4'><a href='/Service' onClick={handleScrollToTop}>Service</a></li>
-                    <li className='relative p-4 group' onClick={handleScrollToTop}>
-                        <a href=''>Platform</a>
+                    <li className='p-4  hover:bg-gray-900 hover:text-white'><a href='/' onClick={handleScrollToTop}>AboutUs</a></li>
+                    <li className='p-4  hover:bg-gray-900 hover:text-white'><a href='/Service' onClick={handleScrollToTop}>Service</a></li>
+                    <li className='relative p-4 group  hover:bg-gray-900 hover:text-white' onClick={handleScrollToTop}>
+                        <a href='' className=''>Platform</a>
                         <ul className='absolute hidden text-black shadow-lg group-hover:block'>
-                            <li className='p-3 border-b border-gray-600 bg-white'><a href='/Why' onClick={handleScrollToTop}>WhyK7</a></li>
-                            <li className='p-3 border-b border-gray-600  bg-white'><a href='/Support' onClick={handleScrollToTop}>Support</a></li>
-                            <li className='p-3 border-b border-gray-600  bg-white'><a href='/Contactus' onClick={handleScrollToTop}>ContactUs</a></li>
+                            <li className='p-3 border-b border-gray-600 bg-white hover:bg-gray-600 hover:text-white'><a href='/Why' onClick={handleScrollToTop}>WhyK7</a></li>
+                            <li className='p-3 border-b border-gray-600  bg-white  hover:bg-gray-600 hover:text-white'><a href='/Support' onClick={handleScrollToTop}>Support</a></li>
+                            <li className='p-3 border-b border-gray-600  bg-white  hover:bg-gray-600 hover:text-white'><a href='/Contactus' onClick={handleScrollToTop}>ContactUs</a></li>
                         </ul>
                     </li>
-                    <li className='p-4'><a href='/Contact'>Careers</a></li>
+                    <li className='p-4  hover:bg-gray-900 hover:text-white'><a href='/Contact'>Careers</a></li>
                 </ul>
                 <div onClick={() => setNav(!nav)} className='block md:hidden'>
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}

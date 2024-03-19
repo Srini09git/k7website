@@ -40,7 +40,7 @@ const ServiceSection = ({ title, subtitle, imageSrc }) => {
                             </p>
                             <Link to='/Contact'>
                                 <div class="mt-8">
-                                    <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+                                    <a href="#" class="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded  ">Start Now</a>
                                 </div></Link>
 
                         </div>

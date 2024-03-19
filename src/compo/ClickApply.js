@@ -14,7 +14,7 @@ export const ClickApply = () => {
         <div>
             <div className=' flex-wrap bg-gradient-to-r from-gray-100 to-gray-200 p-10 md:p-20 flex items-center  justify-around mt-4'>
 
-                <a href="" className='p-3'>
+                <a href="" className='p-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 '>
                     <Link to='/Contact' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">
@@ -25,7 +25,7 @@ export const ClickApply = () => {
                     </Link>
                 </a>
 
-                <a href="" className='p-3'>
+                <a href="" className='p-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'>
                     <Link to='/Support' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">
@@ -35,7 +35,7 @@ export const ClickApply = () => {
                         </div>
                     </Link>
                 </a>
-                <a href="" className='p-3'>
+                <a href="" className='p-3 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110'>
                     <Link to='/Course' href="javascript:;" onClick={handleScrollToTop}>
                         <div class="relative  max-w-96 w-auto rounded-lg bg-gradient-to-tr from-red-500 to-blue-300 p-0.5 shadow-lg">
                             <div class="bg-white p-7 rounded-md">

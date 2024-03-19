@@ -170,7 +170,7 @@ export const Contact = () => {
 
                         </div>
                         <div class="mt-10">
-                            <button type="submit" value={send} class="block w-full rounded-md bg-cyan-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
+                            <button type="submit" value={send} class="block w-full rounded-md bg-cyan-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition ease-in-out delay-150 lg:hover:-translate-y-1 lg:hover:scale-110">Let's talk</button>
                         </div>
                     </form>
                     {isSuccess && <div class="bg-green-100 border-l-4 border-green-500 text-green-700 max-w-90 p-4 rounded-lg relative bg-center ">

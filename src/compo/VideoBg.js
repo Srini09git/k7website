@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 
 const text = "Most Trusted Software Development & Outsourcing company".split(" ");
 
+const name = `{ Develop }`
+
 export const VideoBg = () => {
     return (
         <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
@@ -14,7 +16,7 @@ export const VideoBg = () => {
                 <p className='text-[#00df9a]  lg:text-6xl md:text-8xl sm:text-4xl text-4xl font-bold md:py-6'>
 
                 </p>
-                <p className='text-[#ffffff]  lg:text-6xl md:text-8xl sm:text-4xl text-4xl font-bold md:py-6'>
+                <p className='text-[#ffffff]  lg:text-6xl md:text-8xl sm:text-4xl text-4xl font-bold md:py-6     '>
                     {text.map((el, i) => (
                         <motion.span
                             initial={{ opacity: 0 }}
@@ -32,9 +34,9 @@ export const VideoBg = () => {
                 <h1 className='font-bold p-2 text-white'>
                     We provide full-cycle software development service, web development, backend development, design and prototying, software development, testing, development and application maintenance
                 </h1>
-                <div className='flex justify-center items-center'>
-                    <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4 bg-gradient-to-r from-yellow-300 via-yellow-500 to-yellow-200  hover:from-green-500 hover:to-green-300 inline-block text-transparent bg-clip-text'>
-                        Think.Solve.`Develop`
+                <div className='flex justify-center items-center '>
+                    <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4 bg-gradient-to-r bg-clip-text text-white   //    animate-typing overflow-hidden whitespace-nowrap '>
+                        Think.Solve. <span className='md:text-5xl sm:text-4xl text-xl font-bold py-4 bg-gradient-to-r bg-clip-text from-yellow-300 via-yellow-500 to-yellow-200  hover:from-green-500 hover:to-green-300 inline-block text-transparent'>{name}</span>
                     </p>
 
                 </div>
