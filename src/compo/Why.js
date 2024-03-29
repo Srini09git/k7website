@@ -20,8 +20,7 @@ export const Why = () => {
                         <h1 className='font-bold '>developers to <span className='bg-gradient-to-r from-blue-400 via-red-500 to-red-700  hover:from-green-500 hover:to-green-300 inline-block text-transparent bg-clip-text'>work faster</span></h1>
                         <p className=' text-center  lg:text-1xl md:text-2xl sm:text-2xl text-2xl  py-6 px-8 pb-24'>But with 1000+ webs to develop, you need something simple and smart.</p>
 
-                        <p className=' text-center  lg:text-1xl md:text-4xl sm:text-2xl text-3xl font-bold-300 py-6 px-8 pb-10'>The only way you can clear your backlog
-                            is with a platform built for everyone</p>
+
                     </div>
 
                     <div className='grid  md:grid-cols-2 gap-3 max-w-[1020px] mt-[0px] w-full h-auto mx-auto justify-items-center items-center pb-24'>
