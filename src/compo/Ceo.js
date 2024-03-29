@@ -1,29 +1,40 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Ceophoto from '../assets/k7 profile.png';
 
 export const Ceo = () => {
     const contentRef = useRef(null);
+    const [isMounted, setIsMounted] = useState(false);
 
     useEffect(() => {
-        const scrollInterval = setInterval(() => {
-            if (contentRef.current) {
-                contentRef.current.scrollTop += 1; // Adjust the scrolling speed as needed
-                if (contentRef.current.scrollTop >= contentRef.current.scrollHeight - contentRef.current.clientHeight) {
-                    contentRef.current.scrollTop = 0;
+        setIsMounted(true); // Set isMounted to true when the component is mounted
+
+        return () => setIsMounted(false); // Set isMounted to false when the component is unmounted
+    }, []);
+
+    useEffect(() => {
+        let scrollInterval;
+
+        if (isMounted) {
+            scrollInterval = setInterval(() => {
+                if (contentRef.current) {
+                    contentRef.current.scrollTop += 1; // Adjust the scrolling speed as needed
+                    if (contentRef.current.scrollTop >= contentRef.current.scrollHeight - contentRef.current.clientHeight) {
+                        contentRef.current.scrollTop = 0;
+                    }
                 }
-            }
-        }, 50); // Adjust the interval (milliseconds) as needed
+            }, 50); // Adjust the interval (milliseconds) as needed
+        }
 
         return () => clearInterval(scrollInterval);
-    }, []);
+    }, [isMounted]);
     return (
         <div>
             <section className="pt-10 overflow-hidden bg-gray-50 md:pt-0 sm:pt-16 2xl:pt-16">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="grid items-center grid-cols-1 md:grid-cols-2">
 
-                        <div className="overflow-y-scroll max-h-[500px] " ref={contentRef}> {/* Adjust the max height as needed */}
-                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl pb-6 pt-6">Kesavulu Arthala
+                        <div className="overflow-y-scroll max-h-[500px] " style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} ref={contentRef}> {/* Adjust the max height as needed */}
+                            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl pb-6 pt-24">Kesavulu Arthala
                                 <br class="block sm:hidden" /> <span className='text-blue-500'>CEO</span>
                             </h2>
                             <h1 className=' text-2xl font-semibold pt-3'>From Rags to Riches: The Inspirational Journey of Kesavulu A, Founder of K7 Infotech</h1>
@@ -76,7 +87,7 @@ export const Ceo = () => {
                     </div>
                 </div>
 
-            </section>
-        </div>
+            </section >
+        </div >
     );
 };
