@@ -10,6 +10,7 @@ import { Testimonials } from './Testimonials';
 
 
 export const Why = () => {
+
     return (
         <div>
             <Parallax strength={500} bgImage={whybg} bgImageAlt='bg' className='object-fill  '>
