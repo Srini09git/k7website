@@ -18,9 +18,8 @@ export const ServiceHero = () => {
                             <p class="text-gray-400"></p>
                         </div>
                         <h2 class="text-3xl font-semibold mt-4 md:mt-10">Support</h2>
-                        <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Autem aperiam nulla cupiditate saepe sed quis veritatis minus rem adipisci
-                            aliquid.</p>
+                        <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">At our core, we champion sustainability and ethical practices. By leveraging our expertise in Java, Core Java, Spring Boot, Microservices, APIs, backend, frontend, React.js, JavaScript, AngularJS, TypeScript, and Apache, we help clients align their technological transformations with their environmental and social responsibility goals. Together, we create value not only in business but also in communities worldwide, ensuring a brighter, more sustainable future for all.
+                        </p>
                         <Link to='/Contactus' href="javascript:;">
                             <button class="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read
                                 More</button> </Link>
